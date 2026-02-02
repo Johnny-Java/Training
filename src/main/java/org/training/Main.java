@@ -1,15 +1,10 @@
 package org.training;
 
-import org.training.tasks.ContainerWithMostWater;
-import org.training.tasks.IntToRoman;
-import org.training.tasks.StringToInteger;
-
-import java.util.stream.IntStream;
+import org.training.tasks.ThreeSum;
 
 public class Main {
     public static void main(String[] args) {
-        IntToRoman.execute();
-
+        new ThreeSum().execute();
     }
 
 

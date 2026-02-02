@@ -1,7 +1,7 @@
 package org.training.tasks;
 
-public class StringToInteger {
-    public static void execute(){
+public class StringToInteger implements Task {
+    public void execute(){
         System.out.println(myAtoi("-91283472332"));
     }
 

@@ -1,8 +1,8 @@
 package org.training.tasks;
 
-public class IntToRoman {
+public class IntToRoman implements Task {
 
-    public static void execute() {
+    public void execute() {
         StringBuilder builder = new StringBuilder();
         intToRomanInternal(builder, 3749);
         System.out.println(builder);
